@@ -1,0 +1,195 @@
+@font-face {
+font-family: 'AvenirNextCondensedUltraLight'; 
+src: url('http://static.tumblr.com/ykemwdm/rwYndo79l/avenirnextcondensed-ultralight.ttf');}
+
+#header {
+}
+
+#h-lines-top{
+width: 100%;
+height: 203px;
+z-index: 8;
+border-bottom: black 1px solid;
+position: absolute;
+}
+
+#h-lines-bottom {
+width: 100%;
+height: 211px;
+z-index: 9;
+border-bottom: black 1px solid;
+position: absolute;
+}
+
+
+#v-lines-outside{
+border-left:1px black solid;
+border-right: 1px black solid;
+z-index: 3;
+}
+
+#v-lines-inside{
+border-left:1px black solid;
+border-right: 1px black solid;
+margin: 7px;
+z-index: 4;
+}
+
+
+#title-tag{
+
+}
+
+
+a{text-decoration: none;}
+
+#content {
+float:left;
+border: pink dashed 5 px;
+top: 58px;
+}
+
+#frame-left{
+background-image: url("http://static.tumblr.com/ykemwdm/tNGndnq0a/top-of-frame-left.gif");
+position: fixed;
+top: 0px;
+left:1px;
+height: 250px;
+width: 1000px;
+background-repeat: no-repeat;
+border: green solid 4px;
+
+
+}
+#frame-right{
+background-image: url("http://static.tumblr.com/ykemwdm/T40ndnq0t/top-of-frame-right.gif");
+position: fixed;
+top: 0px;
+right:0px;
+height: 250px;
+width: 1016px;
+background-repeat: no-repeat;
+border: teal solid 4px;
+
+}
+
+#h-line-first{
+border-bottom: 1px black solid;
+margin-top:203px;
+
+}
+
+#h-line-second {
+border-bottom: 1px solid black;
+margin-top: 7px;
+
+}
+
+#sidebar {
+border: red dotted 3px;
+top: 58px;
+}
+
+#lilyport{
+width: 180px;
+}
+
+#martha img{
+height: 96px;
+width: 81px;
+}
+
+
+#sidebar h4 {
+font-family: Sans-Serif;
+font-size: 24px;
+text-align: center;
+
+}
+
+#sidebar h5{
+font-family: Baskerville;
+font-style: italic; 
+font-size: 15px;
+text-align: center; 
+}
+
+
+#logo {
+
+padding-top: 50px;
+}
+
+.avenir {
+font-family: AvenirNextCondensedUltraLight;}
+
+#nav_ul {border: dotted pink 3px;
+clear:both;
+
+
+}
+
+#nav_ul li{
+color: green;
+list-style:none;
+margin: 0;
+padding:0;
+display: inline;}
+
+#nav_ul li a {
+color: green;
+font-family: AvenirNextCondensedUltraLight;
+
+}
+
+#sb-social-buttons 
+{clear:both;
+}
+
+#sb-social-buttons li
+{list-style:none;
+margin: 0;
+padding:0;
+display: inline;
+;}
+
+#s-social-buttons li img {
+ 
+ }
+ 
+ 
+ 
+ 
+ #footer img{
+left: 50%;
+border: teal dashed 2px;
+ }
+ 
+ 
+ #footer-h-line-top{
+width: 100%;
+z-index:2;
+border-bottom: black 1px solid;
+position: absolute;
+margin:8px;
+}
+
+
+ 
+ 
+ #bottom-spacer {
+ height:112px;
+ border: green dotted 2px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

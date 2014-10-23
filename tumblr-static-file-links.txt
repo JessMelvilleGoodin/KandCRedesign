@@ -1,0 +1,60 @@
+Tumblr static files:
+
+
+
+CSS
+	960 grid CSS
+	http://static.tumblr.com/ykemwdm/YGundmjk1/960_12_col.css
+
+	960 reset css
+	http://static.tumblr.com/ykemwdm/d7Indmjm1/reset.css
+	
+	
+Fonts
+	AvenirNextCondensed-UltraLight.tff
+	http://static.tumblr.com/ykemwdm/rwYndo79l/avenirnextcondensed-ultralight.ttf
+	
+	http://static.tumblr.com/ykemwdm/rhhndo8ll/avenirnextcondensed-ultralight.eot
+	
+	http://static.tumblr.com/ykemwdm/HNsndo8ox/avenirnextcondensed-ultralight.otf
+	
+	http://static.tumblr.com/ykemwdm/FHundo8r0/avenirnextcondensed-ultralight.woff
+	
+	
+	
+	
+	
+	
+Images
+	logo.jpg
+	http://static.tumblr.com/ykemwdm/l3Andmdxu/logo01.jpg
+
+	SB-Lily-Portrait-cropped.jpg
+	http://static.tumblr.com/ykemwdm/ZeSndmf4c/sb-lily-portrait-cropped.jpg
+
+
+	Martha Badge
+	http://static.tumblr.com/ykemwdm/L0Ondmfpy/badge2014_food_finalist.png
+	
+	Header Frame
+	http://static.tumblr.com/ykemwdm/H1sndnpht/top-of-frame.gif
+
+	http://static.tumblr.com/ykemwdm/tNGndnq0a/top-of-frame-left.gif
+	
+	http://static.tumblr.com/ykemwdm/T40ndnq0t/top-of-frame-right.gif
+	
+	
+	Footer
+	http://static.tumblr.com/ykemwdm/X82nds1ou/footer-title-tag.jpg
+	
+	http://static.tumblr.com/ykemwdm/0ZNndo9p2/fullfooter.jpg
+
+Social Icons - original
+	facebook
+	http://static.tumblr.com/ykemwdm/AaYndmfrq/facebook_1.png
+
+	email
+	http://static.tumblr.com/ykemwdm/1zdndmfsu/email.png
+
+	Instagram
+	http://static.tumblr.com/ykemwdm/y0qndmftf/instagram.png
