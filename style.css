@@ -26,6 +26,7 @@ position: absolute;
 border-left:1px black solid;
 border-right: 1px black solid;
 z-index: 3;
+height: 100%;
 }
 
 #v-lines-inside{
@@ -33,6 +34,7 @@ border-left:1px black solid;
 border-right: 1px black solid;
 margin: 7px;
 z-index: 4;
+height: 100%;
 }
 
 
@@ -157,21 +159,31 @@ display: inline;
  
  }
  
+ #footer{
+ clear: both;
  
- 
- 
- #footer img{
-left: 50%;
-border: teal dashed 2px;
  }
  
  
- #footer-h-line-top{
-width: 100%;
-z-index:2;
+ 
+ 
+ 
+ #footer-h-line{
+width: 150%;
+z-index:11;
 border-bottom: black 1px solid;
 position: absolute;
 margin:8px;
+left: -100px;
+
+}
+
+#footer-logo{
+
+border: teal dashed 2px;
+position: absolute;
+top: 95px;
+
 }
 
 
@@ -183,7 +195,7 @@ margin:8px;
  }
  
  
- 
+
  
  
  
