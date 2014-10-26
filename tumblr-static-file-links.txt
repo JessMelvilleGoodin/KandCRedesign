@@ -9,6 +9,8 @@ CSS
 	960 reset css
 	http://static.tumblr.com/ykemwdm/d7Indmjm1/reset.css
 	
+	http://static.tumblr.com/ykemwdm/n5pne1bts/style.css
+	
 	
 Fonts
 	AvenirNextCondensed-UltraLight.tff
@@ -58,3 +60,7 @@ Social Icons - original
 
 	Instagram
 	http://static.tumblr.com/ykemwdm/y0qndmftf/instagram.png
+	
+	Twitter
+	http://static.tumblr.com/ykemwdm/nYQne17pe/twitter_2.png
+	
