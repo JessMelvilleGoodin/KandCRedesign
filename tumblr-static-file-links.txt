@@ -24,6 +24,17 @@ Fonts
 	
 	
 	
+	Webfont kit from MyFonts.com
+	 http://static.tumblr.com/ykemwdm/2qune3034/2c6618_0_0.eot
+	 
+	 http://static.tumblr.com/ykemwdm/HdWne303q/2c6618_0_0.ttf
+	 
+	 http://static.tumblr.com/ykemwdm/Pgmne3046/2c6618_0_0.woff
+	 
+	 https://www.dropbox.com/s/imegl8dkgrpwor6/2C6618_0_0.woff2?dl=0
+	 
+	 http://static.tumblr.com/ykemwdm/tQdne30k6/myfontswebfontskit.css
+	
 	
 	
 	

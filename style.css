@@ -1,6 +1,41 @@
-@font-face {
-font-family: 'AvenirNextCondensedUltraLight'; 
-src: url('http://static.tumblr.com/ykemwdm/rwYndo79l/avenirnextcondensed-ultralight.ttf');}
+/**
+ * @license
+ * MyFonts Webfont Build ID 2909720, 2014-10-26T22:17:53-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-UltLtCn by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-ultralight/
+ * Copyright: Copyright &#x00A9; 2004 - 2012 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir Next is a trademark of Linotype
+ * Licensed pageviews: 450,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2909720
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2c6618");
+
+  
+@font-face {font-family: 'AvenirNextLTPro-UltLtCn';src: url('http://static.tumblr.com/ykemwdm/2qune3034/2c6618_0_0.eot');src: 
+url('webfonts/2C6618_0_0.eot?#iefix') format('embedded-opentype'),url('https://www.dropbox.com/s/imegl8dkgrpwor6/2C6618_0_0.woff2?dl=0') 
+format('woff2'),url('http://static.tumblr.com/ykemwdm/Pgmne3046/2c6618_0_0.woff') format('woff'),url('http://static.tumblr.com/ykemwdm/HdWne303q/2c6618_0_0.ttf') format('truetype');}
+ 
+ 
+ 
+.AvenirNextLTPro-UltLtCn { 
+	font-family: AvenirNextLTPro-UltLtCn;
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 #header {
 }
@@ -146,7 +181,7 @@ display: inline;}
 
 #nav_ul li a {
 color: green;
-font-family: AvenirNextCondensedUltraLight;
+
 
 }
 
