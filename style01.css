@@ -1,0 +1,295 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2909720, 2014-10-26T22:17:53-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-UltLtCn by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-ultralight/
+ * Copyright: Copyright &#x00A9; 2004 - 2012 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir Next is a trademark of Linotype
+ * Licensed pageviews: 450,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2909720
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2c6618");
+
+  
+@font-face {font-family: 'AvenirNextLTPro-UltLtCn';src: url('http://static.tumblr.com/ykemwdm/2qune3034/2c6618_0_0.eot');src: 
+url('webfonts/2C6618_0_0.eot?#iefix') format('embedded-opentype'),url('https://www.dropbox.com/s/imegl8dkgrpwor6/2C6618_0_0.woff2?dl=0') 
+format('woff2'),url('http://static.tumblr.com/ykemwdm/Pgmne3046/2c6618_0_0.woff') format('woff'),url('http://static.tumblr.com/ykemwdm/HdWne303q/2c6618_0_0.ttf') format('truetype');}
+ 
+ 
+ 
+.AvenirNextLTPro-UltLtCn { 
+	font-family: AvenirNextLTPro-UltLtCn;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+#header {
+}
+
+#h-lines-top{
+width: 100%;
+height: 203px;
+z-index: 8;
+border-bottom: black 1px solid;
+position: absolute;
+}
+
+#h-lines-bottom {
+width: 100%;
+height: 211px;
+z-index: 9;
+border-bottom: black 1px solid;
+position: absolute;
+}
+
+
+#v-lines-outside{
+border-left:1px black solid;
+border-right: 1px black solid;
+z-index: 3;
+height: 100%;
+}
+
+#v-lines-inside{
+border-left:1px black solid;
+border-right: 1px black solid;
+margin: 7px;
+z-index: 4;
+height: 100%;
+}
+
+
+#title-tag{
+
+}
+
+
+a{text-decoration: none;}
+
+#content {
+float:left;
+border: pink dashed 5 px;
+top: 58px;
+}
+
+#frame-left{
+background-image: url("http://static.tumblr.com/ykemwdm/tNGndnq0a/top-of-frame-left.gif");
+position: fixed;
+top: 0px;
+left:1px;
+height: 250px;
+width: 1000px;
+background-repeat: no-repeat;
+border: green solid 4px;
+
+
+}
+#frame-right{
+background-image: url("http://static.tumblr.com/ykemwdm/T40ndnq0t/top-of-frame-right.gif");
+position: fixed;
+top: 0px;
+right:0px;
+height: 250px;
+width: 1016px;
+background-repeat: no-repeat;
+border: teal solid 4px;
+
+}
+
+#h-line-first{
+border-bottom: 1px black solid;
+margin-top:203px;
+
+}
+
+#h-line-second {
+border-bottom: 1px solid black;
+margin-top: 7px;
+
+}
+
+#sidebar {
+border: red dotted 3px;
+top: 58px;
+}
+
+.sidebar-element{
+width: 220px;
+text-align: center;
+}
+
+#lilyport{
+width: 180px;
+}
+
+#martha img{
+height: 96px;
+width: 81px;
+
+}
+
+
+#sidebar h4 {
+font-family: Sans-Serif;
+font-size: 24px;
+text-align: center;
+
+}
+
+#sidebar h5{
+font-family: Baskerville;
+font-style: italic; 
+font-size: 15px;
+text-align: center; 
+}
+
+
+#logo {
+
+padding-top: 50px;
+}
+
+
+
+#nav_ul {border: dotted pink 3px;
+clear:both;
+
+
+}
+
+#nav_ul li{
+color: green;
+list-style:none;
+margin: 0;
+padding:0;
+display: inline;}
+
+#nav_ul li a {
+color: green;
+
+
+}
+
+#sb-social-buttons 
+{text-align: center;
+clear:both;
+display: inline;
+list-style: none;
+width: 160px;
+
+}
+
+#sb-social-buttons ul{
+
+}
+
+#actual-buttons{
+border: orange solid 1px;
+height: 33px;
+}
+
+#sb-social-buttons li
+{list-style:none;
+margin: 0;
+padding:0;
+display: inline;
+float: left;
+}
+
+
+
+#sb-social-buttons li img {
+width: 33px;
+height: 33px;
+}
+
+ 
+ 
+ #footer{
+ clear: both;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ #footer-h-line{
+width: 100%;
+z-index:11;
+border-bottom: black 1px solid;
+position: absolute;
+margin:8px;
+left: -100px;
+
+}
+
+
+ #footer-content {
+border: teal dashed 2px;
+position: absolute;
+top: 95px;
+
+}
+
+#footer-social-buttons 
+{
+text-align: center;
+clear:both;
+display: inline;
+list-style: none;
+width: 160px;
+}
+
+#footer-social-buttons li {
+list-style:none;
+margin: 0;
+padding:0;
+display: inline;
+}
+
+#footer-social-buttons li img {
+width: 33px;
+height: 33px;
+}
+
+ 
+#footer-logo img{
+
+
+
+}
+
+
+ 
+ 
+ #bottom-spacer {
+ height:112px;
+ border: green dotted 2px;
+ }
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

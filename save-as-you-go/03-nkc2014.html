@@ -1,3 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Kale & Caramel</title>
+
+<link rel="stylesheet" href="http://static.tumblr.com/ykemwdm/YGundmjk1/960_12_col.css" />
+<link rel="stylesheet" href="reset.css"/>
+
+<link href="http://static.tumblr.com/ykemwdm/tQdne30k6/myfontswebfontskit.css" rel='stylesheet' type='text/css'>
+
+
+<!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 2909720, 2014-10-26T22:17:53-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-UltLtCn by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-ultralight/
+ * Copyright: Copyright &#x00A9; 2004 - 2012 Linotype GmbH, www.linotype.com. All rights
+ * reserved. This font software may not be reproduced, modified, disclosed or
+ * transferred without the express written approval of Linotype GmbH. Avenir Next is a
+ * trademark of Linotype
+ * Licensed pageviews: 450,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2909720
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+-->
+<style>
+    
 
   
 
@@ -277,6 +317,531 @@ height: 33px;
  border: green dotted 2px;
  }
  
+ #datestyle {
+ color: #333333;
+ font-size: 22px;
+ font-family: Baskerville;
+ font-style: italic;
+ text-decoration: underline;
+ }
  
+ .postphoto {
+ width: 385px;
+ float: left;
+ border: grey dashed 2px;
  
+ }
  
+ .phototitle1
+ {font-family: AvenirNextLTPro-UltLtCn;
+ color: #333333;
+ }
+ 
+</style>
+
+</head>
+
+
+<body>
+<div id="h-lines-top"> </div>
+<div id="h-lines-bottom"> </div>
+<div class="container_12">
+<div id="v-lines-outside">
+<div id="v-lines-inside">
+
+
+
+
+<!-- HEADER -->
+<div id="header">
+<!-- Logo, col 2-6, 5 cols. -->
+<div id="title-tag">
+<a href="http://kaleandcaramel.tumblr.com/">
+<img class="grid_5 push_1" id="logo" src="http://static.tumblr.com/ykemwdm/l3Andmdxu/logo01.jpg" alt="Kale and Caramel" title="Kale and Caramel logo" />
+</a>
+</div>
+
+
+<div id="top-nav"><!-- Nav, begin at col 2, continue as needed -->
+
+<ul class="push_1" id="nav_ul">
+<li>
+<a class="AvenirNextLTPro-UltLtCn" href="http://kaleandcaramel.tumblr.com/about">
+About
+</a>
+</li>
+
+<li>
+<a class="AvenirNextLTPro-UltLtCn" href="http://kaleandcaramel.tumblr.com/recipes">
+Recipes
+</a>
+</li>
+
+
+
+<li>
+<a class="AvenirNextLTPro-UltLtCn" href="http://kaleandcaramel.tumblr.com/press">
+Press
+</a>
+</li>
+
+<li>
+<a class="AvenirNextLTPro-UltLtCn" href="http://kaleandcaramel.tumblr.com/fivesensesstore">
+Shop
+</a>
+</li>
+
+<li>
+<a class="AvenirNextLTPro-UltLtCn" href="/about">
+BOUTIT
+</a>
+</li>
+
+
+</ul> 
+</div> <!-- end Nav  -->
+
+
+</div> <!-- end header -->
+
+
+
+
+
+<div id="content" class="push_1 grid_7" >
+
+{block:Posts}
+		<div class="post">
+		
+		  
+		
+		  <div class="post-meta">
+		    <a id="datestyle" href="{Permalink}">{Month} {DayOfMonth}, {Year}</a>
+		    {block:IfShowNotes}
+  		    {block:NoteCount}
+  		      &bull; <a href="{Permalink}">{NoteCountWithLabel}</a>
+  		    {/block:NoteCount} 
+		    {/block:IfShowNotes}
+		    {block:IfDisqusShortname}
+		      &bull; <a class="dsq-comment-count" href="{Permalink}#disqus_thread">{lang:Comments}</a>
+	      {/block:IfDisqusShortname}
+	      
+	      {block:ContentSource}
+	          &bull; <a href="{SourceURL}" style="max-width:300px; text-overflow:clip;">{block:SourceLogo}<img src="{WhiteLogoURL}" width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" style="vertical-align:top;" />{/block:SourceLogo}{block:NoSourceLogo}{SourceTitle}{/block:NoSourceLogo}</a>
+	      {/block:ContentSource}
+	      
+		  </div>
+		  
+		  <div class="post-content">
+		  
+		  
+		  
+		  <!-- ******* !!!!!!! PHOTO POST BLOCK  ********   -->
+		    {block:Photo}
+  		    <div class="photo{block:Caption} captioned{/block:Caption}">
+  		     
+  		      <div class="photo-wrapper">{LinkOpenTag}
+  		      
+  		       {block:Title}<h2>{Title}</h2>{/block:Title}
+  		      
+  		      <img class="postphoto" src="{PhotoURL-500}" alt="{PhotoAlt}" />{LinkCloseTag}                   </div>
+  		      
+  		      {block:Caption}
+  		        <div class="body">
+  		          {Caption}
+  		        </div>
+  		      {/block:Caption}
+  		      
+  		      <div class="clear"></div>
+  		    
+  		    </div>
+		    {/block:Photo}
+		    
+		    <!-- ***END PHOTO POST BLOCK**** -->
+		    
+		    
+		    {block:Quote}
+		      <div class="quote">
+		    
+  		      <div class="q-wrapper"><q class="{Length}">{Quote}</q></div>
+  		      
+  		      {block:Source}
+  		      <div class="body">
+    		      {Source}
+    		    </div>
+            {/block:Source}
+  		      
+  		    </div>
+  		  {/block:Quote}
+  		  
+  		  
+  		  
+  		  <!-- ************** TEXT POST BLOCK *************** -->
+  		  {block:Text}
+  		    <div class="text">
+		    
+  		      {block:Title}<h2>{Title}</h2>{/block:Title}
+  		    
+  		      <div class="body">
+    		      {Body}
+            </div>
+  		    
+  		    </div> 
+  		  {/block:Text}
+  		  
+  		  {block:Video}
+  		    <div class="video{block:Caption} captioned{/block:Caption}">
+		     
+  		      <div class="video-wrapper">{Video-500}</div>
+  		      
+  		      {block:Caption}
+  		      <div class="body">
+  		        {Caption}
+  		      </div>
+  		      {/block:Caption}
+  		      
+  		      <div class="clear"></div>
+  		    
+  		    </div>
+  		  {/block:Video}
+  		  
+  		  {block:Audio}
+  		    <div class="audio">
+  		      
+  		      <div class="audio-info {block:AlbumArt}hasart{/block:AlbumArt}">
+  		        {block:AlbumArt}
+    		        <div class="audio-info-left">
+    		          <img src="{AlbumArtURL}" />
+    		        </div>
+  		        {/block:AlbumArt}
+  		        <div class="audio-info-right {block:TrackName}hasmeta{/block:TrackName} {block:Artist}hasmeta{/block:Artist} {block:Album}hasmeta{/block:Album}">
+  		          {block:TrackName}<div class="audio-trackname">{TrackName}</div>{/block:TrackName}
+  		          {block:Artist}<div class="audio-artist">{Artist}</div>{/block:Artist}
+  		          {block:Album}<div class="audio-album">{Album}</div>{/block:Album}
+  		          {block:ifWhiteAudioPlayer}
+                  <div class="audio-player">{AudioPlayerWhite}</div>
+                {/block:ifWhiteAudioPlayer}
+                {block:ifNotWhiteAudioPlayer}
+                  <div class="audio-player">{AudioPlayerBlack}</div>
+                {/block:ifNotWhiteAudioPlayer}
+  		        </div>
+  		        <div class="clear"></div>
+  		      </div>
+  		      
+  		      {block:Caption}
+  		        <div class="body">
+  		          {Caption}
+  		        </div>
+  		      {/block:Caption}
+  		      
+  		    </div>
+  		  {/block:Audio}
+  		  
+  		  {block:Chat}
+  		    <div class="conversation">  
+  		    
+    	      {block:Title}<h2>{Title}</h2>{/block:Title}
+  		                   
+            <table cellspacing="0">
+              {block:Lines}
+                <tr class="user{UserNumber}">
+                  <th>{block:Label}{Label}{/block:Label}</th>
+                  <td>{Line}</td>
+                </tr>
+              {/block:Lines}
+            </table>
+            
+          </div> 
+        {/block:Chat}
+        
+        {block:Link}
+          <div class="link">
+		    
+  		      <h2><a href="{URL}" {Target}><span>{Name}</span></a></h2>
+  		      
+  		      {block:Description} 
+    		      <div class="body">
+    		        {Description}
+    		      </div>
+  		      {/block:Description}
+  		    
+  		    </div>
+        {/block:Link}
+        
+        {block:Answer}          
+  		    <div class="answer">
+  		    
+  		      <div class="answer-question">
+  		        <div class="answer-label">Q</div>
+  		        <div class="body">
+    		        {Question}
+  		        </div>
+  		        <div class="answer-asker post-{PostID}">
+  		          <div class="answer-point">
+    		          <div class="answer-point-top"></div>
+                  <div class="answer-point-bottom"></div>
+                </div>
+                <style>
+                  .post-{PostID} .answer-asker-avatar { background: url({AskerPortraitURL-64})}
+                </style>
+  		          <div class="answer-asker-avatar">{Asker}</div>
+  		        </div>
+  		        <div class="clear"></div>
+  		      </div>
+  		      
+  		      <div class="answer-answer">
+    	        <div class="answer-label">A</div>
+    		      <div class="body">
+    		        {Answer}
+    		      </div>
+  		      </div>
+  		    
+  		    </div>
+        {/block:Answer}
+		  
+		  </div>
+		  
+		  {block:IfShowNotes}
+  		  {block:PostNotes} 
+    		  <div class="post-notes">
+    		    {PostNotes}
+    		  </div>
+  		  {/block:PostNotes} 
+		  {/block:IfShowNotes}
+		  
+		  {block:PermalinkPage}
+        {block:IfDisqusShortname}
+          {block:Permalink}
+          <div id="disqus_thread"></div>
+          <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
+          <noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
+          {/block:Permalink}
+        {/block:IfDisqusShortname}
+      {/block:PermalinkPage}
+		
+		</div>
+		{/block:Posts}
+		
+		
+
+{block:Pagination}
+<nav id="pagination">
+    <ul>
+    {block:NextPage}
+    <li><a href="{NextPage}">NextPage</a></li> {/block:NextPage}
+    
+    {block:PreviousPage}<li><a href="{PreviousPage}">Previous Page</a></li>{/block:PreviousPage}
+    </ul>
+    </nav>
+    {/block:Pagination}
+    
+
+
+
+</div>
+
+
+
+<!-- SIDEBAR -->
+<div class= "grid_3 push_2" id="sidebar" >
+
+<div> <!-- Meet Lily -->
+<a href="http://kaleandcaramel.tumblr.com/about">
+<img id="lilyport" src="http://static.tumblr.com/ykemwdm/ZeSndmf4c/sb-lily-portrait-cropped.jpg" alt="Kale and Caramel Logo"/>
+</a>
+</div> <!-- end meet lily-->
+
+<!-- Social Icons -->
+<div class="sidebar-element" id="sb-social-buttons">
+<ul >
+<div  id="actual-buttons">
+<li>
+<a href="http://instagram.com/kaleandcaramel">
+<img src="http://static.tumblr.com/ykemwdm/y0qndmftf/instagram.png" alt="instagram button"/>
+</a>
+</li>
+
+<li>
+<a href="https://www.facebook.com/kaleandcaramel">
+<img src="http://static.tumblr.com/ykemwdm/AaYndmfrq/facebook_1.png" alt="facebook button"/>
+</a>
+</li>
+
+<li>
+<a href="https://twitter.com/kaleandcaramel">
+<img src="http://static.tumblr.com/ykemwdm/nYQne17pe/twitter_2.png" alt="email button">
+</a>
+</li>
+
+<li>
+<a href="mailto:kaleandcaramel@gmail.com">
+<img src="http://static.tumblr.com/ykemwdm/1zdndmfsu/email.png" alt="email button">
+</a>
+</li>
+
+</div> <!-- actual-buttons end-->
+</ul>
+
+</div> <!-- end social icons -->
+
+
+<div class="sidebar-element"> <!-- Subscribe Form -->
+<form method="post">
+<h4> SUBSCRIBE </h4>
+<input type="email" placeholder="enter your e-mail" name="user-email" />
+<input type="submit" name="email"  value="Submit">
+
+</form>
+</div> <!-- end Subscribe Form -->
+
+
+<div class="sidebar-element" id="martha"><!-- Martha -->
+<a href="http://www.marthastewart.com/americanmade/nominee/95373/food/kale--caramel">
+<img src="http://static.tumblr.com/ykemwdm/L0Ondmfpy/badge2014_food_finalist.png" alt="American Made Martha Stewart Food Finalist Badge" />
+</a>
+</div>
+
+
+<div class="sidebar-element"><!-- RECIPES -->
+
+<a href="  ">
+<h4>Recipes By Season</h4>
+</a>
+
+<a href=" ">
+<h5>spring</h5>
+</a>
+
+<a href=" ">
+<h5>summer</h5>
+</a>
+
+<a href=" ">
+<h5>winter</h5>
+</a>
+
+<a href=" ">
+<h5>fall</h5>
+</a>
+
+
+
+<a href="  ">
+<h4>Recipes By Category</h4>
+
+</a>
+<a href=" ">
+<h5>breakfast & brunch</h5>
+</a>
+
+<a href=" ">
+<h5>lunch & dinner</h5>
+</a>
+<a href=" ">
+<h5>snacks</h5>
+</a>
+
+<a href="http://kaleandcaramel.tumblr.com/foodfast">
+<h5>food.fast</h5>
+</a>
+
+<a href="http://kaleandcaramel.tumblr.com/cleansing">
+<h5>but I'm cleansing!</h5>
+</a>
+
+</div> <!-- End recipes -->
+
+<div class="sidebar-element"><!--Other Sidebar Links -->
+
+
+<a href="http://kaleandcaramel.tumblr.com/fivesensesstore">
+<h4>Five Senses Store</h4>
+
+</a>
+
+<a href="  ">
+<h4>Contact</h4>
+
+</a>
+
+<a href="http://kaleandcaramel.tumblr.com/press">
+<h4>Press</h4>
+
+</a>
+
+<a href="http://instagram.com/kaleandcaramel">
+<h4>Instagram</h4>
+
+</a>
+
+<a href="http://kaleandcaramel.tumblr.com/archive">
+<h4>Archive</h4>
+
+</a>
+</div> <!-- end other sidebar -->
+
+
+</div>  <!-- SIDEBAR -->
+
+
+
+<footer class="push_5" id="footer"> <!-- Footer -->
+<div id="footer-content" >
+<img id="footer-logo" src="http://static.tumblr.com/ykemwdm/X82nds1ou/footer-title-tag.jpg" />
+
+
+<div id="footer-social-buttons">
+<ul >
+<li>
+<a href="http://instagram.com/kaleandcaramel">
+<img src="http://static.tumblr.com/ykemwdm/y0qndmftf/instagram.png" alt="instagram button"/>
+</a>
+</li>
+
+<li>
+<a href="https://www.facebook.com/kaleandcaramel">
+<img src="http://static.tumblr.com/ykemwdm/AaYndmfrq/facebook_1.png" alt="facebook button"/>
+</a>
+</li>
+
+<li>
+<a href="https://twitter.com/kaleandcaramel">
+<img src="http://static.tumblr.com/ykemwdm/nYQne17pe/twitter_2.png" alt="email button">
+</a>
+</li>
+
+<li>
+<a href="mailto:kaleandcaramel@gmail.com">
+<img src="http://static.tumblr.com/ykemwdm/1zdndmfsu/email.png" alt="email button">
+</a>
+</li>
+
+
+</ul>
+</div> <!--end social buttons-->
+</div> <!-- END dive footer-content-->
+</footer> <!-- End Footer -->
+
+
+
+
+
+
+
+<div id="bottom-spacer"> </div>
+<div id="footer-h-line"> </div>
+<div id="bottom-spacer"> </div>
+
+</div> <!-- end v-lines-inside -->
+</div> <!-- End v-lines-outside -->
+</div>  <!-- end .container_12 class -->
+
+
+
+
+</div>
+
+
+</body>
+</html>
+

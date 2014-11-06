@@ -1,0 +1,7 @@
+notes to lily:
+You will have to include this code in your photo posts each time you post in order to add the title:
+"<div class="phototitle1"> THIS THE POST TITLE. </div>
+Here is the content/caption for your photo."
+
+*Include everything in quotes in the photo caption field.
+

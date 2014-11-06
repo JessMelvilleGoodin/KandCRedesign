@@ -9,7 +9,9 @@ CSS
 	960 reset css
 	http://static.tumblr.com/ykemwdm/d7Indmjm1/reset.css
 	
-	http://static.tumblr.com/ykemwdm/n5pne1bts/style.css
+	old style.css: http://static.tumblr.com/ykemwdm/n5pne1bts/style.css
+	
+	lates style.css: 10/29/2014 10:30pm http://static.tumblr.com/ykemwdm/ACVne8mph/style.css
 	
 	
 Fonts
